@@ -3,17 +3,17 @@ import { Layout } from "antd";
 import styled from "styled-components";
 import "react-image-gallery/styles/css/image-gallery.css";
 import "antd/dist/antd.css";
-import Gallery from "../components/gallery";
-import Greeting from "../components/greeting";
-import Title from "../components/title";
-import "../styles/index.css";
+import Gallery from "../../components/gallery";
+import Greeting from "../../components/greeting";
+import Title from "../../components/title";
+import "../../styles/index.css";
 
-import GroovePaper from "../assets/GroovePaper.png";
-import Location from "../components/location";
-import CongratulatoryMoney from "../components/congratulatoryMoney";
-import Share from "../components/share";
-import Quote from "../components/quote";
-import Song from "../assets/song.mp3";
+import GroovePaper from "../../assets/GroovePaper.png";
+import Location from "../../components/location";
+import CongratulatoryMoney from "../../components/congratulatoryMoney";
+import Share from "../../components/share";
+import Quote from "../../components/quote";
+import Song from "../../assets/song.mp3";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
